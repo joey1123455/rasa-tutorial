@@ -1,0 +1,69 @@
+nlu:
+- intent: greet
+  examples: |
+    - Hi
+    - Hey!
+    - Hallo
+    - Good day
+    - Good morning
+    - Wagwan me brethren
+
+- intent: subscribe
+  examples: |
+    - I want to get the newsletter
+    - Can you send me the newsletter?
+    - Can you sign me up for the newsletter?
+    - Pon register for da mailing list
+
+- intent: inform
+  examples: |
+    - My email is example@example.com
+    - random@example.com
+    - Please send it to anything@example.com
+    - Email is something@example.com
+    - My mail is kush@kush.com
+
+- intent: bot_challenge
+  examples: |
+    - Are you a bot?
+    - Are you human?
+    - What are you?
+    - Who made you?
+    - Are you a computer?
+    - Is this a chat bot?
+    - Who am i talking too?
+    - Am i chatting with a bot?
+
+- intent: ask_lower_stress
+  examples: |
+    - What do i do if i am feeling stressed?
+    - How do i handle stress?
+    - Good ways to handle stress?
+    - Wagwan me pun stressed a lickle bit, what me fit do?
+    - How can i lower my Stress levels?
+    - I'm feeling stressed
+    - How can i relax?
+    - I need to relax
+
+- intent: ask_eat_healthy
+  examples: |
+    - What should i eat?
+    - My diet is horrible
+    - What are good eating habits?
+    - Can u help me with a good diet?
+    - How do i follow a healthy diet?
+    - how can i live longer?
+    - How can i manage cholestoral?
+    - Examples of low calorie diets
+    - Diets for diabetic patients
+
+- intent: ask_excersise
+  examples: |
+   - How can i loose weight?
+   - I need to loose weight?
+   - What's a good excersise regime?
+   - Excersise routine for busy people
+   - Excersise routine for elderly people
+   - How much excersise is recomended?
+   - Is two hours of walking enough a day?
+   - How many times per weak should i go to the gym?

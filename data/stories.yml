@@ -1,0 +1,28 @@
+stories:
+ - story: greet and subscribe
+   steps:
+   - intent: greet
+   - action: utter_greet
+   - intent: subscribe
+   - action: newsletter_form
+   - active_loop: newsletter_form
+
+ - story: are you a bot
+   steps:
+   - intent: bot_challenge
+   - action: utter_im_a_bot
+
+ - story: i need excersise
+   steps:
+   - intent: ask_excersise
+   - action: utter_excercise_info
+
+ - story: i am stressed
+   steps:
+   - intent: ask_lower_stress
+   - action: utter_stress_info
+
+ - story: my body is a temple
+   steps:
+   - intent: ask_eat_healthy
+   - action: utter_diet_info
