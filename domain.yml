@@ -7,20 +7,23 @@ intents:
 - inform
 - subscribe
 - bot_challenge
-- ask_excersise
+- ask_exercise
 - ask_eat_healthy
 - ask_lower_stress
 - inform_health
 - out_of_scope
+- affirm
+- deny
+- goodbye
 
 slots:
   email:
     type: text
     influence_conversation: false
     mappings: []
-  confirm_excersise:
+  confirm_exercise:
     type: unfeaturized
-  excersise:
+  exercise:
     type: unfeaturized
   sleep:
     type: unfeaturized 
@@ -55,7 +58,7 @@ responses:
   utter_stress_info:
   - text: |
      It's okay to feel overwhelmed, take a break excersie, eat healthy and focus on achiveable task. Rome was not built in a day you can do this but take it slowly. 
-  utter_excercise_info:
+  utter_exercise_info:
   - text: |
      30 mins cardio would be daily and 30 mins resistance training three times a week would be excellent
   utter_diet_info:
@@ -63,13 +66,13 @@ responses:
      Low fat based foods, high protein, vegetable and moderate sugar intake.
   utter_ask_confirm_exercise:
   - text: |
-     Did you excersise today?
+     Did you exercise today?
   utter_ask_sleep:
   - text: |
      How many hours were you asleep at night?
-  utter_ask_excersise:
+  utter_ask_exercise:
   - text: |
-     What kind of exersise, did  you do?
+     What kind of exercise, did  you do?
   utter_ask_diet:
   - text: |
      What did you eat?
@@ -82,8 +85,8 @@ responses:
   utter_slots_value:
   - text: |
      Here,s your daily wellness log:\n
-     - Exercised?: {confirm_excersise}\n
-     - Type of excersise: {excersise}\n
+     - Exercised?: {confirm_exercise}\n
+     - Type of excersise: {exercise}\n
      - Sleep: {sleep}\n
      - Eating well?: {diet}\n
      - Stress level: {stress}\n
@@ -101,14 +104,14 @@ actions:
 - utter_subscribed
 - utter_im_a_bot
 - utter_diet_info
-- utter_excercise_info
+- utter_exercise_info
 - utter_stress_info
 - utter_no_worries
 - utter_ask_continue
 - utter_slots_value
 - utter_ask_goal
 - utter_ask_stress
-- utter_ask_excersise
+- utter_ask_exercise
 - utter_ask_diet
 - utter_ask_confirm_exercise
 - utter_ask_sleep
@@ -123,6 +126,6 @@ forms:
     - exercise
     - sleep
     - stress
-    - confirm_excersise
+    - confirm_exercise
     - goal
     - diet

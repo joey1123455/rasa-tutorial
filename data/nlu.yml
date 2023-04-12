@@ -61,10 +61,10 @@ nlu:
   examples: |
    - How can i loose weight?
    - I need to loose weight?
-   - What's a good excersise regime?
-   - Excersise routine for busy people
-   - Excersise routine for elderly people
-   - How much excersise is recomended?
+   - What's a good exercise regime?
+   - Exercise routine for busy people
+   - Exercise routine for elderly people
+   - How much exercise is recomended?
    - Is two hours of walking enough a day?
    - How many times per weak should i go to the gym?
 
@@ -125,13 +125,13 @@ nlu:
   - [very](stress) stressed
   - I feel [overwhelmed](stress)
   - [extremely](stress) stressed
-  - i went for a [walk](exersise)
-  - i lifted [weights](exersise) 
-  - 30 mins [jog](exersise)
-  - 50 mins [cycle](exersise)
-  - I did a workout [video](excersise) yesterday
-  - I [boxed](exersise) for an hour
-  - [Swimming](exersise)
+  - i went for a [walk](exercise)
+  - i lifted [weights](exercise) 
+  - 30 mins [jog](exercise)
+  - 50 mins [cycle](exercise)
+  - I did a workout [video](excercise) yesterday
+  - I [boxed](exercise) for an hour
+  - [Swimming](exercise)
   - I ate [well](diet)
   - Had [fast food](diet) for dinner
   - Too many [snacks](diet) yesterday

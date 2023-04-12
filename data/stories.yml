@@ -26,3 +26,63 @@ stories:
    steps:
    - intent: ask_eat_healthy
    - action: utter_diet_info
+
+ - story: get health data 
+   steps:
+   - intent: greet
+   - action: utter_greet
+   - intent: affirm
+   - action: health_form
+   - action: form{"name":"health_form"}
+   - action: form{"name":"null"}
+   - action: utter_slot_values
+   - intent: goodbye
+   - action: utter_no_worries
+
+ - story: get health data stop
+   steps:
+   - intent: greet
+   - action: utter_greet
+   - intent: affirm
+   - action: health_form
+   - action: form{"name":"health_form"}
+   - intent: out_of_scope
+   - action: utter_ask_continue
+   - intent: deny
+   - action: action_deactivate_form
+   - action: form{"name":"null"}
+
+ - story: get health data continue
+   steps:
+   - intent: greet
+   - action: utter_greet
+   - intent: affirm
+   - action: health_form
+   - action: form{"name":"health_form"}
+   - intent: out_of_scope
+   - action: utter_ask_continue
+   - intent: affirm
+   - action: health_form
+   - action: form{"name":"null"}
+   - action: utter_slot_values
+   - intent: goodbye
+   - action: utter_no_worries
+
+ - story: no health data
+   steps:
+   - intent: greet
+   - action: utter_greet
+   - intent: deny
+   - action: utter_no_worries
+
+ - story: ask health questions
+   steps:
+   - intent: greet
+   - action: utter_greet
+   - intent: affirm
+   - action: health_form
+   - action: form{"name":"health_form"}
+   - intent: ask_exercise
+   - action: utter_exercise_info
+   - action: health_form
+   - action: form{"name":"null"}
