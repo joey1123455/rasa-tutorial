@@ -70,96 +70,97 @@ nlu:
 
 - intent: afirm
   examples: |
-   - yes
-   - okay
-   - indeed
-   - alright
-   - oya now
-   - that sounds good
-   - sure
-   - yeah
-   - yep
-   - lets procede
-   - lets go
-   - i think so
-   - sounds cool
-   - sure why not
-   - fine
-   - cool
+    - yes
+    - okay
+    - indeed
+    - alright
+    - oya now
+    - that sounds good
+    - sure
+    - yeah
+    - yep
+    - lets procede
+    - lets go
+    - i think so
+    - sounds cool
+    - sure why not
+    - fine
+    - cool
 
 - intent: goodbye
   examples: |
-  - see ya later
-  - goodbye
-  - byebye
-  - stay safe
-  - thank you
-  - see you soon
+    - see ya later
+    - goodbye
+    - byebye
+    - stay safe
+    - thank you
+    - see you soon
 
 - intent: deny
   examples: |
-  - no
-  - never
-  - i refuse
-  - i won't do that
-  - i did'nt do that
-  - not true
-  - no way
-  - none
-  - untrue
-  - it never happend
-  - no thank you
-  - hell no
-  - your kidding right
-  - could have been better
-  - i don't think so
+    - no
+    - never
+    - i refuse
+    - i won't do that
+    - i did'nt do that
+    - not true
+    - no way
+    - none
+    - untrue
+    - it never happend
+    - no thank you
+    - hell no
+    - your kidding right
+    - could have been better
+    - i don't think so
 
 - intent: inform_health
   examples: |
-  - A full [8 hours](sleep)
-  - I slept like baby [6 hrs](sleep) long
-  - only [two hours](sleep)
-  - about [thirty mins](sleep)
-  - [high](stress)
-  - [low](stress)
-  - [very](stress) stressed
-  - I feel [overwhelmed](stress)
-  - [extremely](stress) stressed
-  - i went for a [walk](exercise)
-  - i lifted [weights](exercise) 
-  - 30 mins [jog](exercise)
-  - 50 mins [cycle](exercise)
-  - I did a workout [video](excercise) yesterday
-  - I [boxed](exercise) for an hour
-  - [Swimming](exercise)
-  - I ate [well](diet)
-  - Had [fast food](diet) for dinner
-  - Too many [snacks](diet) yesterday
-  - I had a [salad](diet) for dinner
-  - Too much [fatty foods](diet)
-  - I ate a delicious [stake](diet)
-  - [Chicken and chips](diet)
-  - [Rice and stew](diet)
+    - A full [8 hours](sleep)
+    - I slept like baby [6 hrs](sleep) long
+    - only [two hours](sleep)
+    - about [thirty mins](sleep)
+    - [high](stress)
+    - [low](stress)
+    - [very](stress) stressed
+    - I feel [overwhelmed](stress)
+    - [extremely](stress) stressed
+    - i went for a [walk](exercise)
+    - i lifted [weights](exercise) 
+    - 30 mins [jog](exercise)
+    - 50 mins [cycle](exercise)
+    - I did a workout [video](excercise) yesterday
+    - I [boxed](exercise) for an hour
+    - [Swimming](exercise)
+    - I ate [well](diet)
+    - Had [fast food](diet) for dinner
+    - Too many [snacks](diet) yesterday
+    - I had a [salad](diet) for dinner
+    - Too much [fatty foods](diet)
+    - I ate a delicious [stake](diet)
+    - [Chicken and chips](diet)
+    - [Rice and stew](diet)
 
 - intent: out_of_scope
-  - that's not what i want to do
-  - nope
-  - i dont want to 
-  - skip
-  - wait
-  - stop
-  - another time
-  - this is not helpfull at the moment
-  - move on
-  - how old are you
-  - i want a pizza 
-  - do you sell chicken
-  - tell me the weather
-  - whats my schedule
-  - mind your business
-  - dont ask me that
-  - privacy please
-  - make me coffee
-  - stop asking
-  - move on please
-  - i changed my mind
+  examples: |
+    - that's not what i want to do
+    - nope
+    - i dont want to 
+    - skip
+    - wait
+    - stop
+    - another time
+    - this is not helpfull at the moment
+    - move on
+    - how old are you
+    - i want a pizza 
+    - do you sell chicken
+    - tell me the weather
+    - whats my schedule
+    - mind your business
+    - dont ask me that
+    - privacy please
+    - make me coffee
+    - stop asking
+    - move on please
+    - i changed my mind

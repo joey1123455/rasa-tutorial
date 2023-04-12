@@ -1,0 +1,52 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-diet",
+      "2": "I-diet",
+      "3": "L-diet",
+      "4": "U-diet",
+      "5": "B-excercise",
+      "6": "I-excercise",
+      "7": "L-excercise",
+      "8": "U-excercise",
+      "9": "B-exercise",
+      "10": "I-exercise",
+      "11": "L-exercise",
+      "12": "U-exercise",
+      "13": "B-sleep",
+      "14": "I-sleep",
+      "15": "L-sleep",
+      "16": "U-sleep",
+      "17": "B-stress",
+      "18": "I-stress",
+      "19": "L-stress",
+      "20": "U-stress",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-diet": 1,
+      "I-diet": 2,
+      "L-diet": 3,
+      "U-diet": 4,
+      "B-excercise": 5,
+      "I-excercise": 6,
+      "L-excercise": 7,
+      "U-excercise": 8,
+      "B-exercise": 9,
+      "I-exercise": 10,
+      "L-exercise": 11,
+      "U-exercise": 12,
+      "B-sleep": 13,
+      "I-sleep": 14,
+      "L-sleep": 15,
+      "U-sleep": 16,
+      "B-stress": 17,
+      "I-stress": 18,
+      "L-stress": 19,
+      "U-stress": 20,
+      "O": 0
+    },
+    "num_tags": 21
+  }
+]

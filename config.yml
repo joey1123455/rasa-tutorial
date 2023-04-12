@@ -28,5 +28,4 @@ policies:
   max_history: 5
   epochs: 100
   constrain_similarities: true
-- name: FormPolicy
 assistant_id: 20230411-182358-orthogonal-diatonic

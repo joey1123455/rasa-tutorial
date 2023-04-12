@@ -22,23 +22,35 @@ slots:
     influence_conversation: false
     mappings: []
   confirm_exercise:
-    type: unfeaturized
+    type: text
+    influence_conversation: false
     mappings: []
   exercise:
-    type: unfeaturized
-    mappings: []
+    type: text
+    influence_conversation: false
+    mappings: 
+    - type: form_entity
+      entity: exercise
   sleep:
-    type: unfeaturized
-    mappings: [] 
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: form_entity
+      entity: sleep
   diet:
-    type: unfeaturized
+    type: text
+    influence_conversation: false
     mappings: []
   goal:
-    type: unfeaturized
+    type: text
+    influence_conversation: false
     mappings: [] 
   stress:
-    type: unfeaturized
-    mappings: []
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: form_entity
+      entity: stress
 
 entities:
   - exercise
