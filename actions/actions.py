@@ -43,7 +43,7 @@ class HealthForm(Action):
             ],
             'sleep': [
                 self.form_intent(intent="sleep"),
-                self.form_intent(intent="deny", value=None),
+                self.form_intent(intent="deny", value="None"),
             ],
             'diet': [
                 self.form_intent(intent="inform"),
