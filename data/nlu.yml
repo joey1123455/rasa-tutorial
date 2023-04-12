@@ -113,4 +113,53 @@ nlu:
   - your kidding right
   - could have been better
   - i don't think so
-  
+
+- intent: inform_health
+  examples: |
+  - A full [8 hours](sleep)
+  - I slept like baby [6 hrs](sleep) long
+  - only [two hours](sleep)
+  - about [thirty mins](sleep)
+  - [high](stress)
+  - [low](stress)
+  - [very](stress) stressed
+  - I feel [overwhelmed](stress)
+  - [extremely](stress) stressed
+  - i went for a [walk](exersise)
+  - i lifted [weights](exersise) 
+  - 30 mins [jog](exersise)
+  - 50 mins [cycle](exersise)
+  - I did a workout [video](excersise) yesterday
+  - I [boxed](exersise) for an hour
+  - [Swimming](exersise)
+  - I ate [well](diet)
+  - Had [fast food](diet) for dinner
+  - Too many [snacks](diet) yesterday
+  - I had a [salad](diet) for dinner
+  - Too much [fatty foods](diet)
+  - I ate a delicious [stake](diet)
+  - [Chicken and chips](diet)
+  - [Rice and stew](diet)
+
+- intent: out_of_scope
+  - that's not what i want to do
+  - nope
+  - i dont want to 
+  - skip
+  - wait
+  - stop
+  - another time
+  - this is not helpfull at the moment
+  - move on
+  - how old are you
+  - i want a pizza 
+  - do you sell chicken
+  - tell me the weather
+  - whats my schedule
+  - mind your business
+  - dont ask me that
+  - privacy please
+  - make me coffee
+  - stop asking
+  - move on please
+  - i changed my mind

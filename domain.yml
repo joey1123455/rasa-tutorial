@@ -10,7 +10,7 @@ intents:
 - ask_excersise
 - ask_eat_healthy
 - ask_lower_stress
-- inform
+- inform_health
 - out_of_scope
 
 slots:
