@@ -67,3 +67,50 @@ nlu:
    - How much excersise is recomended?
    - Is two hours of walking enough a day?
    - How many times per weak should i go to the gym?
+
+- intent: afirm
+  examples: |
+   - yes
+   - okay
+   - indeed
+   - alright
+   - oya now
+   - that sounds good
+   - sure
+   - yeah
+   - yep
+   - lets procede
+   - lets go
+   - i think so
+   - sounds cool
+   - sure why not
+   - fine
+   - cool
+
+- intent: goodbye
+  examples: |
+  - see ya later
+  - goodbye
+  - byebye
+  - stay safe
+  - thank you
+  - see you soon
+
+- intent: deny
+  examples: |
+  - no
+  - never
+  - i refuse
+  - i won't do that
+  - i did'nt do that
+  - not true
+  - no way
+  - none
+  - untrue
+  - it never happend
+  - no thank you
+  - hell no
+  - your kidding right
+  - could have been better
+  - i don't think so
+  
