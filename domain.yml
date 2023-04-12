@@ -23,16 +23,22 @@ slots:
     mappings: []
   confirm_exercise:
     type: unfeaturized
+    mappings: []
   exercise:
     type: unfeaturized
+    mappings: []
   sleep:
-    type: unfeaturized 
+    type: unfeaturized
+    mappings: [] 
   diet:
     type: unfeaturized
+    mappings: []
   goal:
-    type: unfeaturized 
+    type: unfeaturized
+    mappings: [] 
   stress:
     type: unfeaturized
+    mappings: []
 
 entities:
   - exercise
